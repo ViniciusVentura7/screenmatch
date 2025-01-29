@@ -6,6 +6,10 @@ public class Serie extends Titulo{
     private int episodiosTemp;
     private int minEp;
 
+    public Serie(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
+    }
+
     public int getTemporadas() {
         return temporadas;
     }
